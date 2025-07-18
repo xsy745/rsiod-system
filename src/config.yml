@@ -1,0 +1,20 @@
+# 模型配置
+model:
+  # 模型路径
+  path: '../models/yolov8n-obb.pt'
+
+# 界面配置
+ui:
+  # 主窗口标题
+  window_title: '目标检测系统'
+  # 图片文件过滤器
+  image_filter: '图片文件 (*.jpg *.jpeg *.png *.bmp)'
+  # 文件选择对话框标题
+  dialog_title: '选择图片文件'
+
+# 提示消息配置
+messages:
+  error_no_image: '请选择图片文件'
+  start_detect: '开始检测'
+  detect_complete: '检测完成，结果保存在 {}'
+  load_error: '无法加载图片文件。详细信息：{}'
