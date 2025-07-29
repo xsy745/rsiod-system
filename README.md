@@ -1,10 +1,10 @@
-## Remote sensing image object detection system
+# Remote sensing image object detection system
 
 Based on ultralytics 8.3.65, the ultralytics project link is https://github.com/ultralytics/ultralytics/
 
 The original project's README.md and README.zh-CN.md files have been removed, and the current README.md belongs to the rsiod-system project
 
-### Environment Configuration
+## Environment Configuration
 
 1.Create a virtual environment
 ```shell
@@ -32,7 +32,8 @@ pip install -e .
 pip install PyQt5==5.15.9
 ```
 
-### Usage
+## Usage
+
 1.Configure relevant parameters in `src/config.yml`.
 
 2.Run the `src/main.py` file.
